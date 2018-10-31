@@ -1,12 +1,6 @@
 import React, { Component } from 'react'
 import { Form, FormControl, Button } from 'react-bootstrap'
 
-/* const roar = (message) => {
-    console.log(message)
-}
-
-roar('peeep') */
-
 class App extends Component {
     state = {
         text: '',
