@@ -4,6 +4,16 @@ import Note from './Note'
 
 const props = {note: {text: 'test note'} }
 
+/* console.log({...props})
+
+const triplePrint = (a, b, c) => {
+    console.log(`${a} ${b} ${c}`)   
+}
+
+const message = ['react', 'is', 'not good']
+
+triplePrint(...message) */
+
 describe('Note', () => {
     // let note = mount(<Note note={ props.note } />)
     let note = mount(<Note {...props} />)
